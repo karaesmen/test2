@@ -12,4 +12,4 @@ iris <- read_tsv("data/my_iris.txt")
 ggsave("figures/my_iris.pdf")
 
 summary(iris)
-
+colnames(iris)
